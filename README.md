@@ -26,8 +26,9 @@ Open Information Extraction (OpenIE) papers and resources. Summaries are by Jaco
 ## Papers - Older papers and legacy systems 
 
 * From University of Washington
-  * [TextRunner](http://turing.cs.washington.edu/papers/ijcai07.pdf)
-  * [Reverb](http://reverb.cs.washington.edu/)
-  * [OLLIE](https://knowitall.github.io/ollie/)
-* [ClausIE](https://www.mpi-inf.mpg.de/departments/databases-and-information-systems/software/clausie/)
-* [ReNoun](http://www.aclweb.org/anthology/D14-1038) for noun-mediated relations.
+  * [TextRunner](http://turing.cs.washington.edu/papers/ijcai07.pdf) - One of the earliest papers addressing open information extraction
+  * [Reverb](http://reverb.cs.washington.edu/) - Improved the extraction to better form the tuple of (argument, relation, argument)
+  * [OLLIE](https://knowitall.github.io/ollie/) - Addressed the issue of misleading propositions and non-verb mediated relations
+* [CSD-IE](https://ieeexplore.ieee.org/document/6693511/) - Generation of nested contractions which is especially effective in sentences using subordinating clauses
+* [ClausIE](https://www.mpi-inf.mpg.de/departments/databases-and-information-systems/software/clausie/) - Formed a strong relation between grammatical clauses, propositions, and OIE extractions by defining seven grammatical patterns
+* [ReNoun](http://www.aclweb.org/anthology/D14-1038) - Used predominantly for noun-mediated relations.
