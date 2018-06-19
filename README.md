@@ -10,7 +10,7 @@ Open Information Extraction (OpenIE) papers and resources. Summaries are by Jaco
 
 * [A Survey on Open Information Extraction](https://arxiv.org/abs/1806.05599). Most up-to-date literature review (June 2018), convering non-neural network based approaches to OpenIE. Whereas I've classified by age in this document, the authors classify by method of extraction (learning-based, rule-based, clause-based, inter-propositional).
 
-* [Creating a Large Benchmark for Open Information Extraction](http://www.aclweb.org/anthology/D16-1252): summarizes the field and creates a benchmark for OpenIE systems
+* [Creating a Large Benchmark for Open Information Extraction](http://www.aclweb.org/anthology/D16-1252): summarizes the field and creates a benchmark for OpenIE systems and creates the first large benchmark dataset (note: not large enough to train NN's). 
 
 ## Papers - Neural Networks
 
@@ -20,8 +20,8 @@ Open Information Extraction (OpenIE) papers and resources. Summaries are by Jaco
 
 ## Papers - Traditional Methods
 
-* [Stanford Open IE](https://nlp.stanford.edu/software/openie.html): it's great for maximally-shortened tuples. Cons: it seems to often produce nonsensical tuples for which the reported confidience is often 1.0.
-* [OpenIE-X](https://knowitall.github.io/openie/) ([v4](https://github.com/knowitall/openie), [v5](https://github.com/dair-iitd/OpenIE-standalone), [allen institute version](https://github.com/allenai/openie-standalone)). From UW, this is the best traditional OpenIE system I've tried. Works well with simple statements (see examples [in this dataset](http://data.allenai.org/tuple-ie/)). Outputs context for extractions and gives good-enough confidence predictions that can be used to balance precision-recall. 
+* [Stanford Open IE](https://nlp.stanford.edu/software/openie.html): it's great for maximally-shortened tuples. Cons: it seems to often produce nonsensical tuples for which the reported confidience is often 1.0. GPL or proprietary available as part of [Stanford Core NLP](https://stanfordnlp.github.io/CoreNLP/).
+* [OpenIE-X](https://knowitall.github.io/openie/) ([v4](https://github.com/knowitall/openie), [v5](https://github.com/dair-iitd/OpenIE-standalone), [allen institute version](https://github.com/allenai/openie-standalone)). From UW, this is the best traditional OpenIE system I've tried. Works well with simple statements (see examples [in this dataset](http://data.allenai.org/tuple-ie/)). Outputs context for extractions and gives good-enough confidence predictions that can be used to balance precision-recall. Note the restrictive license (research purposes only). 
 
 ## Papers - Older papers and legacy systems 
 
@@ -31,11 +31,3 @@ Open Information Extraction (OpenIE) papers and resources. Summaries are by Jaco
   * [OLLIE](https://knowitall.github.io/ollie/)
 * [ClausIE](https://www.mpi-inf.mpg.de/departments/databases-and-information-systems/software/clausie/)
 * [ReNoun](http://www.aclweb.org/anthology/D14-1038) for noun-mediated relations.
-
-## People
-
-## Data
-
-## Systems
-
-## Repositories
