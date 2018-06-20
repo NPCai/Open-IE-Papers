@@ -49,3 +49,25 @@ melora walters as candy ' - a hooker who works for the motel where john person i
 - - a hunter who uses bows and arrows instead of guns .
 <arg1> - - a hunter </arg1> <rel> uses </rel> <arg2> bows and arrows instead of guns </arg2>
 ```
+
+* [TupleInf Open IE Dataset](http://data.allenai.org/tuple-ie/): OpenIE-4 extractions of 8th grade and 4th grade questions. By inspection, these tend to be cleaner than the above dataset because of the simplicity of the language. Confidence-values are retained so you can make your own tradeoff between precision and recall. Note suitable for a gold dataset.
+```
+01 April 1969 The ATM would be a manned solar observatory making measurements of the Sun by telescopes and instruments above 
+0.96 (The ATM; would be; a manned solar observatory making measurements of the Sun by telescopes and instruments)
+0.93 (a manned solar observatory; making; measurements of the Sun)
+
+01 April 1969 The ATM would be a manned solar observatory making measurements of the Sun by telescopes and instruments above the Earth's atmosphere.
+0.96 (The ATM; would be; a manned solar observatory making measurements of the Sun by telescopes and instruments above the Earth's atmosphere)
+0.93 (a manned solar observatory; making; measurements of the Sun)
+
+01 - Compare the physical properties of ice, liquid, water, and vapor.
+
+01 Earthly Seasons PURPOSE: To show that the seasons are the consequence of the tilt of earth.
+
+0.1% water can lower the melting temperature of peridotite by 100 C.
+0.91 (0.1% water; can lower; the melting temperature of peridotite)
+
+( 020 ) Celsius &#176;C The international temperature scale where water freezes at 0 (degrees) and boils at 100 (degrees).
+0.89 (water; freezes; at 0 (degrees)
+```
+
