@@ -77,4 +77,30 @@ melora walters as candy ' - a hooker who works for the motel where john person i
 ( 020 ) Celsius &#176;C The international temperature scale where water freezes at 0 (degrees) and boils at 100 (degrees).
 0.89 (water; freezes; at 0 (degrees)
 ```
-
+* [Squadie](https://github.com/NPCai/Squadie) (not yet published, expect changes): this is our dataset derived from Squad. It uses a similar JSON format to SQuAD and contains 95,000 tuples, almost an order of magnitude more than previous systems. From each question we extract a tuple. This tuple can then be matched with the corresponding sentence in the training corpus.
+```
+                        {
+                            "question": "Which film did Beyoncé star in 2001 with Mekhi Phifer?",
+                            "id": "56d4831f2ccc5a1400d83155",
+                            "answer": "Carmen: A Hip Hopera",
+                            "tuple": "<Which film\tdid Beyoncé star with Mekhi Phifer\tCarmen: A Hip Hopera>"
+                        },
+                        {
+                            "question": "What was the name of Destiny Child's third album?",
+                            "id": "56d4831f2ccc5a1400d83156",
+                            "answer": "Survivor",
+                            "tuple": "<Survivor\tthe name of\tDestiny Child 's third album>"
+                        },
+                        {
+                            "question": "Who filed a lawsuit over Survivor?",
+                            "id": "56d4831f2ccc5a1400d83157",
+                            "answer": "Luckett and Roberson",
+                            "tuple": "<Luckett and Roberson\tfiled a lawsuit over\tSurvivor>"
+                        },
+                        {
+                            "question": "When did Destiny's Child announce their hiatus?",
+                            "id": "56d4831f2ccc5a1400d83158",
+                            "answer": "October 2001",
+                            "tuple": "<Destiny 's Child\tannounce their hiatus\tOctober 2001>"
+                        }
+```
