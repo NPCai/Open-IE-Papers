@@ -9,7 +9,7 @@
 
 ## General <a name="general"></a>
 
-This README containts OpenIE papers and resources. Summaries are by [@jbecke](https://github.com/jbecke) and [@TheodoreChristakis](https://github.com/TheodoreChristakis), to the best of our abilities after reading each paper or testing the system (when available). Some links are duplicated accross sections such that each section is self-contained.
+This README containts OpenIE papers and resources. Summaries are by [@jbecke](https://github.com/jbecke) and [@TheodoreChristakis](https://github.com/TheodoreChristakis), to the best of our abilities after reading each paper or testing the system (when available). We welcome pull requests with additional resources, papers, or data.
 
 * [Wikipedia OpenIE](https://en.wikipedia.org/wiki/Open_information_extraction)
 
@@ -37,6 +37,7 @@ This README containts OpenIE papers and resources. Summaries are by [@jbecke](ht
   * [Reverb](http://reverb.cs.washington.edu/) - Improved the extraction to better form the tuple of (argument, relation, argument)
   * [OLLIE](https://knowitall.github.io/ollie/) - Addressed the issue of misleading propositions and non-verb mediated relations
 * [CSD-IE](https://ieeexplore.ieee.org/document/6693511/) - Generation of nested contractions which is especially effective in sentences using subordinating clauses
+* [PropS](http://u.cs.biu.ac.il/~stanovg/props.html): Syntax Based Proposition Extraction
 * [ClausIE](https://www.mpi-inf.mpg.de/departments/databases-and-information-systems/software/clausie/) - Formed a strong relation between grammatical clauses, propositions, and OIE extractions by defining seven grammatical patterns
 * [ReNoun](http://www.aclweb.org/anthology/D14-1038) - Used predominantly for noun-mediated relations.
 
