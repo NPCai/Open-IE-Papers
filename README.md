@@ -1,6 +1,6 @@
 # Open-IE-Papers
 
-Open Information Extraction (OpenIE) papers and resources. Summaries are by @jbecke and Theodore Christakis, to the best of our abilities after reading each paper or testing the system (when available). Some links are duplicated accross sections such that each section is self-contained.
+Open Information Extraction (OpenIE) papers and resources. Summaries are by [@jbecke](https://github.com/jbecke) and [@TheodoreChristakis](https://github.com/TheodoreChristakis), to the best of our abilities after reading each paper or testing the system (when available). Some links are duplicated accross sections such that each section is self-contained.
 
 ## General
 
