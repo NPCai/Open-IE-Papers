@@ -27,8 +27,8 @@ This README containts OpenIE papers and resources. Summaries are by [@jbecke](ht
 
 ## Papers - Traditional Methods <a name="papers_traditional"></a>
 
-* [Stanford Open IE](https://nlp.stanford.edu/software/openie.html): it's great for maximally-shortened tuples. Cons: it seems to often produce nonsensical tuples for which the reported confidience is often 1.0. GPL or proprietary available as part of [Stanford Core NLP](https://stanfordnlp.github.io/CoreNLP/).
-* [OpenIE-X](https://knowitall.github.io/openie/) ([v4](https://github.com/knowitall/openie), [v5](https://github.com/dair-iitd/OpenIE-standalone), [allen institute version](https://github.com/allenai/openie-standalone)). From UW, this is the best traditional OpenIE system I've tried. Works well with simple statements (see examples [in this dataset](http://data.allenai.org/tuple-ie/)). Outputs context for extractions and gives good-enough confidence predictions that can be used to balance precision-recall. Note the restrictive license (research purposes only). 
+* [Stanford Open IE](https://nlp.stanford.edu/software/openie.html): produces maximally-shortened tuples. It seems to often produce tuples for which the reported confidience is often 1.0. GPL or proprietary available as part of [Stanford Core NLP](https://stanfordnlp.github.io/CoreNLP/).
+* [OpenIE-X](https://knowitall.github.io/openie/) ([v4](https://github.com/knowitall/openie), [v5](https://github.com/dair-iitd/OpenIE-standalone), [allen institute version](https://github.com/allenai/openie-standalone)). Works well with simple statements (see examples [in this dataset](http://data.allenai.org/tuple-ie/)). Outputs context for extractions and gives good confidence predictions that can be used to balance precision-recall. Note the restrictive license (research purposes only). 
 
 ## Papers - Older papers and legacy systems <a name="papers_old"></a>
 
