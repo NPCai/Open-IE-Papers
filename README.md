@@ -9,7 +9,7 @@
 
 ## General <a name="general"></a>
 
-This README containts OpenIE papers and resources. Summaries are by [@jbecke](https://github.com/jbecke) and [@TheodoreChristakis](https://github.com/TheodoreChristakis), to the best of our abilities after reading each paper or testing the system (when available). We welcome pull requests with additional resources, papers, or data.
+This README containts OpenIE and ORE papers and resources. Summaries are by [@jbecke](https://github.com/jbecke) and [@TheodoreChristakis](https://github.com/TheodoreChristakis), to the best of our abilities after reading each paper or testing the system (when available). We welcome pull requests with additional resources, papers, or data.
 
 * [Wikipedia OpenIE](https://en.wikipedia.org/wiki/Open_information_extraction)
 
@@ -18,6 +18,8 @@ This README containts OpenIE papers and resources. Summaries are by [@jbecke](ht
 * [A Survey on Open Information Extraction](https://arxiv.org/abs/1806.05599). Most up-to-date literature review (June 2018), convering non-neural network based approaches to OpenIE. Whereas I've classified by age in this document, the authors classify by method of extraction (learning-based, rule-based, clause-based, inter-propositional).
 
 * [Creating a Large Benchmark for Open Information Extraction](http://www.aclweb.org/anthology/D16-1252): summarizes the field and creates a benchmark for OpenIE systems and creates the first large benchmark dataset (note: not large enough to train NN's). 
+
+* [Effectiveness and Efficiency of Open Relation Extraction](http://www.anthology.aclweb.org/D/D13/D13-1043.pdf): Review of the limited work done in the field of ORE (open relation extraction).
 
 ## Papers - Neural Networks <a name="papers_nn"></a>
 
@@ -29,6 +31,8 @@ This README containts OpenIE papers and resources. Summaries are by [@jbecke](ht
 
 * [Stanford Open IE](https://nlp.stanford.edu/software/openie.html): produces maximally-shortened tuples. It seems to often produce tuples for which the reported confidience is often 1.0. GPL or proprietary available as part of [Stanford Core NLP](https://stanfordnlp.github.io/CoreNLP/).
 * [OpenIE-X](https://knowitall.github.io/openie/) ([v4](https://github.com/knowitall/openie), [v5](https://github.com/dair-iitd/OpenIE-standalone), [allen institute version](https://github.com/allenai/openie-standalone)). Works well with simple statements (see examples [in this dataset](http://data.allenai.org/tuple-ie/)). Outputs context for extractions and gives good confidence predictions that can be used to balance precision-recall. Note the restrictive license (research purposes only). 
+* [Open Relation Extraction and Grounding](http://aclweb.org/anthology/I17-1086): Extracts argument pairs of relation tuples and forms weighted dependency trees between two arguments. It shows promising results in determining relative importance of each argument in the tree.
+* [Unsupervised Open Relation Extraction](https://arxiv.org/pdf/1801.07174.pdf): Used for unsupervised relation extraction from free text by using pretrained word embeddings while using a sentence's dependency parse tree as a foundation.
 
 ## Papers - Older papers and legacy systems <a name="papers_old"></a>
 
