@@ -44,6 +44,7 @@ This README containts OpenIE and ORE papers and resources. Summaries are by [@jb
 * [PropS](http://u.cs.biu.ac.il/~stanovg/props.html): Syntax Based Proposition Extraction
 * [ClausIE](https://www.mpi-inf.mpg.de/departments/databases-and-information-systems/software/clausie/) - Formed a strong relation between grammatical clauses, propositions, and OIE extractions by defining seven grammatical patterns
 * [ReNoun](http://www.aclweb.org/anthology/D14-1038) - Used predominantly for noun-mediated relations.
+* [Graphene](https://www.researchgate.net/publication/325734922_Graphene_Semantically-Linked_Propositions_in_Open_Information_Extraction?enrichId=rgreq-810ff916f1de8d82406f9bc1738f5f61-XXX&enrichSource=Y292ZXJQYWdlOzMyNTczNDkyMjtBUzo2MzY5NTQ2MzkwODU1NzFAMTUyODg3MzIyODAxNg%3D%3D&el=1_x_3&_esc=publicationCoverPdf) generates n-ary extractions with dependancy labels like "TEMPORAL", "CAUSE", etc.
 
 ## Training and Testing Data <a name="data"></a>
 
