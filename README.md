@@ -3,7 +3,7 @@
 1. [General](#general)
 2. [Literature Reviews](#reviews)
 3. [Papers - Neural Networks](#papers_nn)
-4. [Papers - Traditional Methods](#papers_traditional)
+4. [Papers - Parse-based and statistical](#papers_traditional)
 5. [Papers - Older papers and legacy systems ](#papers_old)
 6. [Training and Testing Data](#data)
 
@@ -27,8 +27,9 @@ This README containts OpenIE and ORE papers and resources. Summaries are by [@jb
 
 * [Supervised Open Information Extraction](http://aclweb.org/anthology/N18-1081): expands on the idea of turning QA datasets into OpenIE datasets. Trains an ANN with using an interesting feature representation, uses seq2seq model to generate BIO tags and then creates tuples from that using a deterministic algorithm.
 
-## Papers - Traditional Methods <a name="papers_traditional"></a>
+## Papers - Parse-based and statistical <a name="papers_traditional"></a>
 
+* [Graphene](https://www.researchgate.net/publication/325734922_Graphene_Semantically-Linked_Propositions_in_Open_Information_Extraction?enrichId=rgreq-810ff916f1de8d82406f9bc1738f5f61-XXX&enrichSource=Y292ZXJQYWdlOzMyNTczNDkyMjtBUzo2MzY5NTQ2MzkwODU1NzFAMTUyODg3MzIyODAxNg%3D%3D&el=1_x_3&_esc=publicationCoverPdf) generates n-ary extractions with dependancy labels like "TEMPORAL", "CAUSE", etc.
 * [Stanford Open IE](https://nlp.stanford.edu/software/openie.html): produces maximally-shortened tuples. It seems to often produce tuples for which the reported confidience is often 1.0. GPL or proprietary available as part of [Stanford Core NLP](https://stanfordnlp.github.io/CoreNLP/).
 * [OpenIE-X](https://knowitall.github.io/openie/) ([v4](https://github.com/knowitall/openie), [v5](https://github.com/dair-iitd/OpenIE-standalone), [allen institute version](https://github.com/allenai/openie-standalone)). Works well with simple statements (see examples [in this dataset](http://data.allenai.org/tuple-ie/)). Outputs context for extractions and gives good confidence predictions that can be used to balance precision-recall. Note the restrictive license (research purposes only). 
 * [Open Relation Extraction and Grounding](http://aclweb.org/anthology/I17-1086): Extracts argument pairs of relation tuples and forms weighted dependency trees between two arguments. It shows promising results in determining relative importance of each argument in the tree.
@@ -44,7 +45,7 @@ This README containts OpenIE and ORE papers and resources. Summaries are by [@jb
 * [PropS](http://u.cs.biu.ac.il/~stanovg/props.html): Syntax Based Proposition Extraction
 * [ClausIE](https://www.mpi-inf.mpg.de/departments/databases-and-information-systems/software/clausie/) - Formed a strong relation between grammatical clauses, propositions, and OIE extractions by defining seven grammatical patterns
 * [ReNoun](http://www.aclweb.org/anthology/D14-1038) - Used predominantly for noun-mediated relations.
-* [Graphene](https://www.researchgate.net/publication/325734922_Graphene_Semantically-Linked_Propositions_in_Open_Information_Extraction?enrichId=rgreq-810ff916f1de8d82406f9bc1738f5f61-XXX&enrichSource=Y292ZXJQYWdlOzMyNTczNDkyMjtBUzo2MzY5NTQ2MzkwODU1NzFAMTUyODg3MzIyODAxNg%3D%3D&el=1_x_3&_esc=publicationCoverPdf) generates n-ary extractions with dependancy labels like "TEMPORAL", "CAUSE", etc.
+
 
 ## Training and Testing Data <a name="data"></a>
 
