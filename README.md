@@ -84,7 +84,7 @@ melora walters as candy ' - a hooker who works for the motel where john person i
 ( 020 ) Celsius &#176;C The international temperature scale where water freezes at 0 (degrees) and boils at 100 (degrees).
 0.89 (water; freezes; at 0 (degrees)
 ```
-* [Squadie](https://github.com/NPCai/Squadie) (not yet published, expect changes): this is our dataset derived from Squad. It uses a similar JSON format to SQuAD and contains 50,000 tuples, almost an order of magnitude more than previous systems. From each question we extract a tuple. This tuple can then be matched with the corresponding sentence in the training corpus. Not suitable as a gold corpus. It is useful for discovering implied relations. We are working on converting Maluuba NewsQA as additional training data. 
+* [Squadie](https://github.com/NPCai/Squadie) (not yet published, expect changes): this is our dataset derived from Squad. It uses a similar JSON format to SQuAD and contains 50,000 tuples. This tuple can then be matched with the corresponding sentence in the training corpus. Not suitable as a gold corpus. It is useful for discovering implied relations. We have also converted Maluuba NewsQA.
 ```
                         {
                             "question": "Which film did Beyoncé star in 2001 with Mekhi Phifer?",
