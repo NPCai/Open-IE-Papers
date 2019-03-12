@@ -27,6 +27,8 @@ This README containts OpenIE and ORE papers and resources. Summaries are by [@jb
 
 * [Supervised Open Information Extraction](http://aclweb.org/anthology/N18-1081): expands on the idea of turning QA datasets into OpenIE datasets. Trains an ANN with using an interesting feature representation, uses seq2seq model to generate BIO tags and then creates tuples from that using a deterministic algorithm.
 
+* [Supervised Neural Models Revitalize the Open Relation Extraction](https://arxiv.org/pdf/1809.09408.pdf): tagging scheme similar to above paper, but uses a mixture of BiLSTM, CNN, and CRF and displays promising results.
+
 ## Papers - Parse-based and statistical <a name="papers_traditional"></a>
 
 * [Graphene](https://www.researchgate.net/publication/325734922_Graphene_Semantically-Linked_Propositions_in_Open_Information_Extraction?enrichId=rgreq-810ff916f1de8d82406f9bc1738f5f61-XXX&enrichSource=Y292ZXJQYWdlOzMyNTczNDkyMjtBUzo2MzY5NTQ2MzkwODU1NzFAMTUyODg3MzIyODAxNg%3D%3D&el=1_x_3&_esc=publicationCoverPdf) generates n-ary extractions with semantically linking-labels like "TEMPORAL", "CAUSE", etc. as well as open relations
