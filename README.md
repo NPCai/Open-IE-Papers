@@ -36,6 +36,7 @@ This README containts OpenIE and ORE papers and resources. Summaries are by [@jb
 * [OpenIE-X](https://knowitall.github.io/openie/) ([v4](https://github.com/knowitall/openie), [v5](https://github.com/dair-iitd/OpenIE-standalone), [allen institute version](https://github.com/allenai/openie-standalone)). Works well with simple statements (see examples [in this dataset](http://data.allenai.org/tuple-ie/)). Outputs context for extractions and gives good confidence predictions that can be used to balance precision-recall. Note the restrictive license (research purposes only). 
 * [Open Relation Extraction and Grounding](http://aclweb.org/anthology/I17-1086): Extracts argument pairs of relation tuples and forms weighted dependency trees between two arguments. It shows promising results in determining relative importance of each argument in the tree.
 * [Unsupervised Open Relation Extraction](https://arxiv.org/pdf/1801.07174.pdf): Used for unsupervised relation extraction from free text by using pretrained word embeddings while using a sentence's dependency parse tree as a foundation.
+* [Open Information Extraction from Question-Answer Pairs](https://arxiv.org/pdf/1903.00172v1.pdf) neural network to extract OpenIE tuples from conversation-based QA datasets.
 
 ## Papers - Older papers and legacy systems <a name="papers_old"></a>
 
